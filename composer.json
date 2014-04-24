@@ -8,14 +8,13 @@
 			"name": "Jorge González",
 			"email": "scrub.mx@gmail.com"
 		}
-	],
-	"autoload": {
-		"files": [
-			"app/content/themes/base-theme/inc/helpers.php",
-			"app/content/themes/base-theme/inc/ajax-functions.php"
-		]
+	]
 	},
 	"repositories": [
+		{
+            "type":"composer",
+            "url":"http://wpackagist.org"
+        },
 		{
 			"type": "package",
 			"package": {
@@ -23,8 +22,8 @@
 				"type": "webroot",
 				"version": "dev-master",
 				"dist": {
-					"type": "tar",
-					"url": "http://wordpress.org/latest.tar.gz"
+					"type": "zip",
+					"url": "https://wordpress.org/latest.zip"
 				},
 				"require": {
 					"fancyguy/webroot-installer": "1.0.0"
@@ -33,7 +32,7 @@
 		}
 	],
 	"require":{
-		"php": ">=5.4.0",
+		"php": ">=5.3.0",
 		"wordpress/wordpress": "dev-master"
 	},
 	"config": {

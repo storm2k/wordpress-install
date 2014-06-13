@@ -1,13 +1,18 @@
 {
-	"name": "scrubmx/wordpress-install",
-	"description": "Install wordpress trough composer, so much win!",
+	"name": "storm2k/wordpress-install",
+	"description": "Install wordpress trough composer, so much win! (forked from scrubmx/wordpress-install)",
 	"keywords": ["install", "framework", "wordpress", "composer"],
 	"license": "MIT",
 	"authors": [
 		{
 			"name": "Jorge González",
 			"email": "scrub.mx@gmail.com"
-		}
+		},
+		{
+			"name": "Michael Romero",
+			"email": "gitcomments@dimensionsix.net",
+			"homepage": "https://github.com/storm2k"
+    }
 	]
 	},
 	"repositories": [
@@ -41,6 +46,11 @@
 		"process-timeout": 1000
 	},
 	"extra": {
+		"installer-paths": {
+		  "web/app/plugins/{$name}/": ["type:wordpress-plugin"],
+		  "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
+		  "web/app/themes/{$name}/": ["type:wordpress-theme"]
+		},
 		"webroot-dir": "wordpress",
 		"webroot-package": "wordpress/wordpress"
 	}

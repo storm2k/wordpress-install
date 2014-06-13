@@ -10,7 +10,7 @@
  */
 define( 'WP_HOME', 'http://example.com' );
 
-define( 'WP_SITEURL',  WP_HOME . '/wordpress' );
+define( 'WP_SITEURL',  WP_HOME . '/wp' );
 
 
 /*
@@ -34,20 +34,11 @@ define( 'WP_CONTENT_URL', WP_HOME . '/app/content' );
 
 /*
  |---------------------------------------------------------------
- | Change default theme
- |---------------------------------------------------------------
- */
-if ( ! defined('WP_DEFAULT_THEME') )
-	define( 'WP_DEFAULT_THEME', 'base-theme' );
-
-
-/*
- |---------------------------------------------------------------
  | Absolute path to the WordPress directory.
  |---------------------------------------------------------------
  */
 if ( ! defined('ABSPATH') )
-	define('ABSPATH', dirname(__FILE__) . '/wordpress/');
+	define('ABSPATH', dirname(__FILE__) . '/wp/');
 
 
  /*

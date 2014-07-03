@@ -24,10 +24,10 @@
 			"package": {
 				"name": "wordpress/wordpress",
 				"type": "webroot",
-				"version": "dev-master",
+				"version": "3.9.1",
 				"dist": {
 					"type": "zip",
-					"url": "https://wordpress.org/latest.zip"
+					"url": "https://wordpress.org/wordpress-latest.zip"
 				},
 				"require": {
 					"fancyguy/webroot-installer": "1.0.0"

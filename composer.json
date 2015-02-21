@@ -24,10 +24,10 @@
 			"package": {
 				"name": "wordpress/wordpress",
 				"type": "webroot",
-				"version": "4.0.1",
+				"version": "4.1.1",
 				"dist": {
 					"type": "zip",
-					"url": "https://wordpress.org/wordpress-4.0.1.zip"
+					"url": "https://wordpress.org/wordpress-4.1.1.zip"
 				},
 				"require": {
 					"fancyguy/webroot-installer": "1.0.0"
@@ -37,12 +37,10 @@
 	],
 	"require":{
 		"php": ">=5.4.0",
-		"wordpress/wordpress": "4.0.1",
+		"wordpress/wordpress": "4.1.1",
 		"wpackagist-plugin/akismet":">=3.0.3",
-		"roots/soil": ">=3.0.2",
-        "wpackagist-plugin/conveyor": ">=1.4.2",
-        "wpackagist-plugin/simple-lightbox": ">=2.3.1",
-        "wpackagist-plugin/jetpack":  ">=3.2.1"
+		"roots/soil": "3.0.3",
+        "wpackagist-plugin/jetpack":  "3.3.2"
 	},
 	"config": {
 		"bin-dir": "bin/",
